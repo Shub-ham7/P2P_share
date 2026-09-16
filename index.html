@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P2P FileShare — Direct Browser-to-Browser Transfer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <!--
+    Zero-build setup: React/ReactDOM/Babel loaded from CDN, JSX transpiled
+    in-browser. Fine for a demo/interview project; for production, swap
+    this block for a Vite/webpack build and keep app.jsx (renamed .jsx
+    entry) plus every other module unchanged.
+  -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel" data-type="module" data-presets="react" src="./app.jsx"></script>
+</body>
+</html>
