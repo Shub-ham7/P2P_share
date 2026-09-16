@@ -1,0 +1,13 @@
+{
+  "name": "p2p-fileshare-signaling",
+  "version": "1.0.0",
+  "description": "WebSocket signaling server for P2P FileShare. Relays only SDP/ICE handshake messages between two peers in a room — never file payloads.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
